@@ -1,1 +1,2 @@
-chave = "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"
+chave= "chave"
+#chave = "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"
