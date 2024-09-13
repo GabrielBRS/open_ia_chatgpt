@@ -19,4 +19,7 @@ body_mensagem = json.dumps(body_mensagem)
 requisicao = requests.post(link, headers=headers, data=body_mensagem)
 print(requisicao)
 print(requisicao.text)
+resposta = requisicao.json()
+#mensagem = resposta["choices"][0]["message"]["content"]
+print(resposta)
 
