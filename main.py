@@ -1,8 +1,8 @@
-from senha import API_KEY
+from senha import chave
 import requests
 import json
 
-headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+headers = {"Authorization": f"Bearer {chave}", "Content-Type": "application/json"}
 link = "https://api.openai.com/v1/chat/completions"
 id_modelo = "gpt-3.5-turbo"
 
